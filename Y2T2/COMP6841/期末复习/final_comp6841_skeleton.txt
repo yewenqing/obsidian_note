@@ -1,0 +1,380 @@
+= UNSW COMP64[8]41 Final Theory Exam Parts A+B+C: 2026t2 v4.1 =
+== 120 marks + 2 bonus marks / 3 hours ==
+
+There is a 2 mark bonus if you correctly follow all exam instructions.
+
+Note from past experience is that it is extremely rare for answers that are very long to score as well as those which are shorter, usually overly long answers score worse because they tend to be more confusing or cluttered. Answers which contain an unclear mixture of strong and weak points will not score as well as answers which consist of only strong points or which clearly distinguish between the stronger and weaker points.
+
+DON'T answer all exam questions:
+
+COMP6841 - 120 marks
+Part A - answer ALL questions = 48 marks
+Part B - answer ALL questions = 52 marks
+Part C - answer ALL questions = 20 marks
+
+Read Before You Start:
+
+Lines such as [guide: 2-3 sentences] are guides and you are not required to follow them.
+
+If you are doing the exam electronically type in your details and sign the affirmation by typing your name where indicated.
+
+{{{
+  Student Number: NOT ANSWERED
+  Course: NOT ANSWERED [Should be COMP6841]
+  I assert this work is wholly my own work except where I have explicitly acknowledged. I have not contacted any other person about this exam during the exam period. I typed, word by word, my answer to this exam and did not rely on generative AI to construct or substitute words, sentences or ideas contained in this exam. I will keep the exam confidential until 21st August 10pm Sydney time.
+  Sign/Type your name: NOT ANSWERED
+}}}
+
+If you are not answering a question leave/write NOT ANSWERED in the answer area(s).
+
+DO NOT edit/add/delete ANY text ANYWHERE outside of the answer areas indicated. Also you will lose the bonus marks for following instructions if you do that.
+
+Make frequent backup copies of your completed exam paper and submit as you go so if anything goes wrong you do not lose much work. There are no time extensions for accidentally deleting work - that is a foreseeable and mitigable risk for security professionals.
+
+Text file format only
+Type/write your answers into the indicated areas and submit using the instructions on the exam central page. You must use a text editor (e.g. BBedit or TextMate or TextEdit on Mac, Notepad, Notepad++ on Windows) and submit a text only file. We cannot mark an answer file with formatting like italics or containing non-ascii characters etc. You may submit your answer file as many times as you like over the duration of the exam. The last submission ONLY will be marked. If you have problems submitting you can email your exam answer paper (in text only format) to cs6441@cse.unsw.edu.au.
+
+You are to type, word by word, every answer to this exam and not use generative AI or translation tools to construct or substitute words, sentences or ideas for this exam.
+
+This is an open book exam. You may READ anything you like on the internet or in books etc but you must disclose what you have read. You will be assessed on your contribution. Beneath every question paste the titles of any books you consulted and the urls of any documents/webpages you consult replacing the word NONE with your list. Leave the word NONE there if you did not consult anything for that question. It will be treated as plagiarism if you rely upon or use a source which you do not reference in this way.
+
+You may not WRITE or SHARE anything on the internet or with any other person during this exam with the exception for asking permitted questions as described below. You cannot communicate with any other person or share any information about or related to the exam. This includes making comments on the course web pages or make any comments anywhere including sms, texts, on social media / chats, discord, etc. You cannot make or answer phone calls, messages, emails etc. Violating these read-only restrictions is regarded as cheating and will result in 0 fail and possible charges of academic misconduct and even more serious penalties. But mainly it’s not an honourable thing to do.
+
+You are permitted to use online calculators or security tooling to help you answer the questions. You are not permitted to use any generative AI or translation tools to help you answer the questions.
+
+Permitted Communication
+
+You are permitted to contact the exam supervisor by emailing cs6441@cse.unsw.edu.au with questions or through the locked down discourse page.
+
+Do not discuss the exam or content at all with anyone until after 10PM Sydney time or reveal anything about the questions. There are a number of people around the world doing the exam at later times – they will all be finished by 10PM Sydney time. You can write a indication of joy/relief/support on the Open learning course home page at the end of the exam if you are happy that you finished, but please no more until 10pm. Examples of acceptable things you could write are:
+
+Good examples (permitted)
+Yay!
+So glad I am now free and can relax unlike Lyria, Nakshathra, Rahat and the other markers who now have to work without pause for a week. Mwahahaha!
+Now I will sleep for days
+
+Bad examples (not permitted before 10pm deadline, as they reveal something about the exam itself)
+That was easy
+That was hard
+I am so glad there was no question about sony playstations
+
+If you think a question is ambiguous, answer the most likely interpretation and state what you have done. Where two or more different answers are possible give the answer which best answers the question. If you need to make assumptions state them. Keep answers brief and clear. Don't waffle. Whenever you list or order things put the most important things first. In your answers where it is relevant state the course security concepts you are using. Make sure you explain your thinking to demonstrate your analysis where ever asked.
+
+
+{{{
+=========================================================
+Part A
+=========================================================
+
+There are 5 questions in this part. Answer all of the questions in this part.
+}}}
+
+## Question A1 [2 marks]
+
+Blah... most important to consider in this system?
+
+[A] Blah
+[B] Blah
+[C] Blah
+[D] Blah
+[E] Blah
+[F] Blah
+
+[Your answer should be one uppercase letter A-F]
+
+NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+## Question A2 [2 marks]
+
+Blah?
+
+[A] Blah
+[B] Blah
+[C] Blah
+[D] Blah
+[E] Blah
+[F] Blah
+
+[Your answer should be one uppercase letter A-F]
+
+NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+## Question A3 [18 marks]
+
+.... write the answer in English even if blah.
+
+a) What is blah? [2 marks] (guide: 3-10 words)
+
+NOT ANSWERED
+
+
+b) Identify some... Blah [4 marks] (guide: 50-150 words)
+
+NOT ANSWERED
+
+
+c) Clearly explain a blah. [8 marks] (guide: 500 words)
+
+NOT ANSWERED
+
+
+d) Why would this be blah? [4 marks] (guide: 2-3 sentences)
+
+NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+## Question A4 [16 marks]
+
+A blah.
+
+a) If blah, would you blah?
+
+NOT ANSWERED
+
+b) Justify blah. [7 marks] (guide: 150-250 words)
+
+NOT ANSWERED
+
+c) List and rank the top 3 blah. [9 marks]
+
+1.
+Blah (guide: 10-20 words): NOT ANSWERED
+Blah (guide: 30-50 words): NOT ANSWERED
+
+2.
+Blah (guide: 10-20 words): NOT ANSWERED
+Blah (guide: 30-50 words): NOT ANSWERED
+
+3.
+Blah (guide: 10-20 words): NOT ANSWERED
+Blah (guide: 30-50 words): NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+## Question A5 [10 marks]
+
+Security is blah.
+
+In what ways (guide: 2-3 sentences each)?:
+
+1. NOT ANSWERED
+2. NOT ANSWERED
+3. NOT ANSWERED
+4. NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+{{{
+=========================================================
+Part B
+=========================================================
+
+There are 4 questions in this part. Answer all of the questions in this part.
+}}}
+
+## Question B1 [4 marks]
+
+You are given blah:
+
+What is blah? Show all your working.
+
+NOT ANSWERED
+
+Working:
+
+NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+## Question B2 [14 marks]
+
+A developer is blah.
+
+a) Blah?
+
+NOT ANSWERED
+
+b) Why? blah. [8 marks] (guide: 250-350 words)
+
+NOT ANSWERED
+
+c) Provide blah, if any. [6 marks] (guide: 100-150 words)
+
+NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+## Question B3 [14 marks]
+
+In a blah:
+
+Here are blah:
+
+Blah
+
+a) What are blah (for those possible)?
+
+Blah 1: NOT ANSWERED
+Blah 2: NOT ANSWERED
+Blah 3: NOT ANSWERED
+
+State blah (5 marks) [guide: 50-100 words]:
+
+NOT ANSWERED
+
+b) Should the blah? (5 marks) [guide: 100-150 words]
+
+NOT ANSWERED
+
+Why?
+
+NOT ANSWERED
+
+
+c) Blah? (4 marks)
+
+NOT ANSWERED
+
+Blah:
+
+NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+## Question B4 [20 marks]
+
+Refer to image "blah.jpg" for this question.
+
+Blah
+
+a) Blah? [4 marks]
+
+NOT ANSWERED
+
+Blah:
+
+NOT ANSWERED
+
+
+b) Blah? [4 marks]
+
+NOT ANSWERED
+
+Blah:
+
+NOT ANSWERED
+
+
+c) Blah? [2 marks]
+
+NOT ANSWERED
+
+Blah:
+
+NOT ANSWERED
+
+
+d) Blah? [4 marks]
+
+NOT ANSWERED
+
+Blah:
+
+NOT ANSWERED
+
+
+e) To conclude blah? [6 marks] (guide: 100-150 words)
+
+NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+{{{
+=========================================================
+Part C
+=========================================================
+
+There are 2 questions in this part. Answer all of the questions in this part.
+}}}
+
+## Question C1 [10 marks]
+
+Challenge is located on blah. Can you blah? You need to provide your writeup to get marks. Partial marks will be awarded for incomplete writeups.
+
+a) Flag: (2 marks)
+
+NOT ANSWERED
+
+Steps you took:
+
+NOT ANSWERED
+
+b) What is blah? (8 marks)
+
+hint: blah
+
+NOT ANSWERED
+
+Steps you took:
+
+NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+## Question C2 [10 marks]
+
+Challenge is located on blah.
+
+Refer to the binary file "blah" and C file "blah.c" provided. Can you figure out what this code is doing and get the flag?
+
+When you have done so enter the flag below and explain your method. You need to provide your writeup to get marks. Partial marks will be awarded for incomplete writeups.
+
+a) Flag:
+
+NOT ANSWERED
+
+Steps you took:
+
+NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+

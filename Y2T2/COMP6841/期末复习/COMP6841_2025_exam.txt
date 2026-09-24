@@ -1,0 +1,676 @@
+= UNSW COMP6841 Final Theory Exam: 2025t2 =
+=== 174 marks + 1 bonus marks / 4 hours ===
+
+There is a 1 mark bonus if you correctly follow all exam instructions.
+
+Note from past experience is that it is extremely rare for answers that are very long to score as well as those which are shorter, usually overly long answers score worse because they tend to be more confusing or cluttered. Answers which contain an unclear mixture of strong and weak points will not score as well as answers which consist of only strong points or which clearly distinguish between the stronger and weaker points.
+
+DON'T answer all exam questions:
+
+COMP6841 - 174 marks
+Part A - answer ALL questions = 48 marks
+Part B - answer 4/5 questions = 72 marks
+Part C - answer ALL question = 54 marks
+
+Read Before You Start:
+
+If you are doing the exam electronically type in your details and sign the affirmation by typing your name where indicated.
+
+{{{
+  Student Number: NOT ANSWERED
+  Which course: NOT ANSWERED [COMP6841] (Otherwise you are doing the wrong exam)
+  I assert this work is wholly my own work except where I have explicitly acknowledged. I have not contacted any other person about this exam during the exam period. I typed, word by word, my answer to this exam and did not rely on generative AI to construct or substitute words, sentences or ideas contained in this exam. I will keep the exam confidential until Saturday 23rd August 10pm.
+  Sign/Type your name: NOT ANSWERED
+}}}
+
+If you are not answering a question leave/write NOT ANSWERED in the answer area(s). Do not answer more than the required number of questions. If you answer more than the required number of questions then we will ONLY mark the FIRST questions you answered.
+
+DO NOT edit/add/delete ANY text ANYWHERE outside of the answer areas indicated. That will muck up the poor admins having to split up and extract your answers for marking using scripts. Also you will lose the bonus marks for following instructions if you do that.
+
+Make frequent backup copies of your completed exam paper and submit as you go so if anything goes wrong you do not lose much work. There are no time extensions for accidentally deleting work - that is a foreseeable and mitigable risk for security professionals.
+
+Text file format only
+Type/write your answers into the indicated areas and submit using the instructions on the exam central page. You must use a text editor (e.g. BBedit or TextMate or TextEdit on Mac, Notepad, Notepad++ on Windows) and submit a text only file. We cannot mark an answer file with formatting like italics or containing non-ascii characters etc. You may submit your answer file as many times as you like over the duration of the exam. The last submission ONLY will be marked. If you have problems submitting you can email your exam answer paper (in text only format) to cs6441@cse.unsw.edu.au.
+
+You are to type, word by word, every answer to this exam and not rely on generative AI to construct or substitute words, sentences or ideas for this exam.
+
+This is an open book exam. You may READ anything you like on the internet or in books etc but you must disclose what you have read. You will be assessed on your contribution. Beneath every question paste the titles of any books you consulted and the urls of any documents/webpages you consult replacing the word NONE with your list. Leave the word NONE there if you did not consult anything for that question. It will be treated as plagiarism if you rely upon or use a source which you do not reference in this way.
+
+You may not WRITE or SHARE anything on the internet or with any other person during this exam with the exception for asking permitted questions as described below. You cannot communicate with any other person or share any information about or related to the exam. This includes making comments on the course web pages or make any comments anywhere including sms, texts, on social media / chats, discord, etc. You cannot make or answer phone calls, messages, emails etc. Violating these read-only restrictions is regarded as cheating and will result in 0 fail and possible charges of academic misconduct and even more serious penalties. But mainly it鈥檚 not an honourable thing to do.
+
+Permitted Communication
+
+You are permitted to contact the exam supervisor in the following ways:
+
+1. You can ask about the process of the exam and ask for clarification about rules or typos in the question wording (but do not give any hints about answer content) by making comments on EdStem to course staff through https://edstem.org/au/courses/24567/discussion. THIS IS THE ONLY PAGE YOU CAN MAKE COMMENTS ON DURING THE EXAM PERIOD.
+
+Updates on the exam will be posted on EdStem.
+
+2. You can also email cs6441@cse.unsw.edu.au with confidential questions but that may not be noticed as quickly as comments.
+
+If you are unsure about anything ask the exam supervisors using the methods above.
+
+Please do not discuss the exam or content at all with anyone until after Saturday 10PM or reveal anything about the questions. There are a number of people around the world doing the exam at later times 鈥� they will all be finished by Saturday 10PM Sydney time. You can write a indication of joy/relief/support on the Open learning course home page at the end of the exam if you are happy that you finished, but please no more until Saturday 10pm. Examples of acceptable things you could write are:
+
+Good examples (permitted)
+Yay!
+So glad I am now free and can relax unlike Lyria, Nakshathra, Kris, Rahat and the other markers who now have to work without pause for a week. Mwahahaha!
+Now I will sleep for days
+
+Bad examples (not permitted before Saturday 10pm deadline, as they reveal something about the exam itself)
+That was easy
+That was hard
+I am so glad there was no question about sony playstations
+It's unfair there was a question about China Syndrome! I didn't realise the case studies were examinable.
+
+If you think a question is ambiguous, answer the most likely interpretation and state what you have done. Where two or more different answers are possible give the answer which best answers the question. If you need to make assumptions state them. Keep answers brief and clear. Don't waffle. Whenever you list or order things put the most important things first. In your answers where it is relevant state the course security concepts you are using. Make sure you explain your thinking to demonstrate your analysis where ever asked.
+
+{{{
+=========================================================
+Part A
+=========================================================
+
+There are 5 questions in this part. Answer all of the questions in this part.
+}}}
+
+=== Question A1 === [2 marks]
+
+Within the criminal justice system, an innocent person is wrongfully jailed for a crime they did not commit. Which of the following terms best describes this?
+
+[A] Accident
+[B] Just Culture
+[C] Security Theatre
+[D] Type I Error
+[E] Type II Error
+
+NOT ANSWERED
+
+
+=== Question A2 === [2 marks]
+
+Which best describes the following situation?
+
+A shopping center currently in operation to the public within Australia collapsing due to poor structural integrity.
+
+[A] High Impact, Low Likelihood
+[B] High Impact, High Likelihood
+[C] Low Impact, Low Likelihood
+[D] Low Impact, High Likelihood
+[D] Medium Impact, Medium Likelihood
+
+NOT ANSWERED
+
+
+=== Question A3 === [20 marks]
+
+Suppose X is an agent of a foreign power interested in accessing some of the research and correspondence of UNSW Senior Lecturer Dr. Hammond Pearce. X has been tasked with getting Hammond to open a malicious attachment in an email.
+
+What strategy could X use?  You'll be assessed on how realistic, specific, simple, effective, non-risky, time-consuming X's strategy is, and how likely Hammond is to open that attachment.
+
+IMPORTANT
+
+This question involves devising a way to effectively and realistically perform social engineering on Hammond.  You may carry out some OSINT but you may not do anything active, intrusive, disrespectful or contact Hammond or anyone else or actually carry out any social engineering. In answering this question, you are restricted to looking at publicly available information and using entirely passive methods.
+
+In answering this question do not do anything which violates the course good faith policy which includes not doing anything that violates UNSW's acceptable use policy. Do not actually send Hammond malicious attachments, do not actually undertake any active measures, do not actually be an agent of a foreign power.
+
+Identify some significant (but not intrusively personal) things about Hammond which will help X carry out their social engineering attack [3 marks] (guide: 2-4 sentences)
+
+NOT ANSWERED
+
+Clearly explain a practical and safe social engineering strategy X could follow to get Hammond to open an attachment. Don't speak generally, instead be as specific as you can in your answer. We need to be able to assess how likely it is that the social engineering attempt would work. [7 marks] (guide: 4-8 sentences)
+
+NOT ANSWERED
+
+State the main cognitive vulnerability X's strategy is targeting... (guide: 1 sentence)
+
+NOT ANSWERED
+
+...and explain how it is exploited in the strategy. [4 marks] (guide: 2-4 sentences)
+
+NOT ANSWERED
+
+Evaluate with reasons how likely it is that X's social engineering strategy will work. [6 marks] (guide: 3-6 sentences)
+
+NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question: 
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+=== Question A4 === [12 marks]
+
+Organisations are shifting from AI assistants that support human decision-making to autonomous AI agents that independently execute and approve tasks. These tasks include document reviews, code reviews, automated simulations and analysis. In some of these cases, the human reviewer step has been removed to increase efficiency and remove labour costs.
+
+You are a government agency asked to provide insight into this issue and asked to name 3 recommendations to do this securely and effectively. [6 marks]
+
+Recommendation 1 (guide: 2-3 sentences):
+
+NOT ANSWERED
+
+
+Recommendation 2 (guide: 2-3 sentences):
+
+NOT ANSWERED
+
+
+Recommendation 3 (guide: 2-3 sentences):
+
+NOT ANSWERED
+
+
+If one idea was to become mandatory for all Australian companies, which one would it be and why [6 marks] (guide: 3-4 sentences)?
+
+NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question: 
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+=== Question A5 === [12 marks]
+
+Professionals within the security field require a large amount of communication skills to present knowledge to various stakeholders.
+
+After completing the course, in what ways have course components contributed to helping students become more aligned in becoming a better communicator working within the security field?
+
+Draw comparisons as to what professionals within security require and how those skills have been developed in the course. Make direct reference to tutorials, lectures, and assessments. Note that we are only looking at communication skills. You may choose to write more than 4 examples if you wish, but we will only take your best 4 examples to mark.
+
+Course you completed: COMP6841
+
+In what ways (guide: 2-3 sentences each)?:
+1. NOT ANSWERED
+2. NOT ANSWERED
+3. NOT ANSWERED
+4. NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question: 
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+{{{
+=========================================================
+Part B - 18 Mark Questions
+=========================================================
+
+Only answer FOUR of the FIVE questions in this part.
+
+Each question in this part is worth 18 marks so you should spend around 18-20 minutes per question.
+}}}
+
+=== Question B1 === [18 marks] 
+
+You are a Detections Engineer responsible for reviewing logs within the organizational network. In a particular instance, you realize a Sales employee had logged in and began accessing and reviewing a large amount of organizational source code for an up-and-coming future product being released. You are convinced that this is suspicious though due to potential employee curiosity, you choose to ignore the instance.
+
+Later in the day, you realize that there is a large amount of outcoming traffic from the network and realize that it is from the same employee. What are the top steps and recommendations, immediately and in the long term, provide a brief explanation as you do this. Is legal action required?
+
+1. Steps and Recommendations [6 marks]
+
+1.1. Immediate:
+1.1.1. NOT ANSWERED
+1.1.2. NOT ANSWERED
+1.1.3. NOT ANSWERED
+
+1.2. Long-term:
+1.2.1. NOT ANSWERED
+1.2.2. NOT ANSWERED
+1.2.3. NOT ANSWERED
+
+2. Should you have done anything differently other than ignoring the first suspicious activity? Why? [4 marks] [guide: 2-3 sentences]
+
+NOT ANSWERED
+
+3. Is Legal Action Required? What should the company do? [8 marks] (guide: 5-6 sentences)
+
+NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question: 
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+=== Question B2  === [18 marks]
+
+Below are four lists of expenses submitted by six politicians. At least 1 of the politicians are dishonest and submitted fake expense claims.
+
+Refer to their spending below. [12 marks]
+
+{{{
+    A	B   C   D
+    18  29  23  26
+    58  31  47  50
+    58  34  18  60
+    58  44  20  39
+    41  53  40  51
+    58  69  30  91
+    48  13  38  83
+    45  93  23  51
+    95  69  67  39
+    24  14  35  23
+    56  16  89  70
+    4   18  45  95
+    37  15  20  49
+    17  34  99  81
+    42  71  38  85
+    25  14  20  69
+    12  22  46  87
+    37  92  28  99
+    53  12  37  23
+    69  20  47  62
+    33  68  27  55
+    20  12  49  65
+    48  56  18  59
+    30  81  29  68
+    53  45  38  54
+}}}
+
+Correctly identify the status of each politician.
+
+### Politician A ###
+[A] Honest
+[B] Dishonest
+
+NOT ANSWERED
+
+Reasoning (guide: 10-30 words):
+
+NOT ANSWERED 
+
+
+### Politician B ###
+[A] Honest
+[B] Dishonest
+
+NOT ANSWERED
+
+Reasoning (guide: 10-30 words):
+
+NOT ANSWERED 
+
+
+### Politician C ###
+[A] Honest
+[B] Dishonest
+
+NOT ANSWERED
+
+Reasoning (guide: 10-30 words):
+
+NOT ANSWERED 
+
+### Politician D ###
+[A] Honest
+[B] Dishonest
+
+NOT ANSWERED
+
+Reasoning (guide: 10-30 words):
+
+NOT ANSWERED
+
+Think of three properties that are important in ensuring that it is difficult to fake expense claims? Elaborate on each property and a protocol could be in place to remediate [6 marks] (guide: 2-3 sentences each).
+
+1. NOT ANSWERED
+2. NOT ANSWERED
+3. NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+=== Question B3 [18 marks] ===
+
+A federal intelligence organisation has captured the following portion of messages in their investigation of two potential money laundering companies both disguised as ice cream stores. One store is called Maple and the other is called Apple. They were able to do this since messages were not performed through TLS meaning that the original plaintext could be captured. They have come to three different assumptions:
+
+The message has been obfuscated, having known that the transmission could be insecure
+
+This is a transposition cipher
+
+They will start messages with 鈥淭O MAPLE鈥� or 鈥淭O APPLE鈥� given it is a common pattern
+
+Collected messages:
+
+Message 1 (Sent to Maple):
+
+PABAE SOMLE MIAES MCTBO IRHPT ENNLL HHIWH XOEHO RBWTA EIEMW AAEUE ONCCX EHEIT DGCAM GELTE ZNAUU LAIRT HRSGY YTVCH T****
+
+Message 2 (Sent to Apple):
+
+PECEU AHITB CPVHT OHWDK RAWOC UKSEA EHXOH ULDTM EOHBA ACAYO EAOEE EOOOI ELGGT XLTHW LVINO YHTEM OLEOR BTE***
+
+
+a) What could the length of the private key secret in the message intercepted by the NSA be? Why? (4 marks)
+
+NOT ANSWERED 
+
+b) Decode the first 20 characters of the given messages (14 marks):
+
+Message 1: NOT ANSWERED
+
+Message 2: NOT ANSWERED
+
+Working:
+
+NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question: 
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+=== Question B4 === [18 marks]
+
+Suppose you are tasked with revising the design of a "nuclear football" which could be used to launch a nuclear strike. Currently, it is protected by a 8-digit PIN which must be entered correctly before the football opens. Once successfully activated the launch order is transmitted from the football using shortwave radio. The launch order is a 1024-bit secret number.
+
+A security engineer has suggested adding a biometric sensor for multi-factor authentication. To activate the football, a 1 Megabyte photo of your face is taken and hashed using a proprietary facial hashing algorithm to produce a 30-bit "facehash".
+
+You must also enter the 8-digit pin, which is XOR-ed with the facehash. The result is then sent to an internal authentication unit to verify it matches, and decide whether or not to activate the football.
+
+Approximately how many bits of work would an attacker need to do to activate the football, assuming they could take physical ownership of the football? Explain your thought processes as you go.
+
+a) How many bits of work in the worst case (8 marks)?
+
+Bits of work: NOT ANSWERED
+
+Thought Processes / Working
+
+NOT ANSWERED
+
+b) How long would it take for a government intelligence agency to brute force the password in the worst case (10 marks)? List any assumptions you have.
+
+Time (years in nearest power of 2): 2^NOT ANSWERED
+
+Assumptions / Thought Processes / Working
+
+NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question:
+
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+!!!
+STOP IF YOU HAVE ALREADY ANSWERED 4 PART B QUESTIONS - YOU ARE DONE!
+!!!
+
+
+=== Question B5 === [18 marks]
+
+A politician, after reading PKI X.509 Certificate formats believes that the best approach to running the government is to be the sole root authority themselves. The politician permits the ones they trust closest to because Intermediate Authorities which then permits access to each object. The Intermediate Authorities then go out and seek out respective permitted individuals.
+
+Is this an effective system? What are different issues which may occur here? [12 marks]
+
+NOT ANSWERED
+
+What policies would have to be defined to ensure that least privilege is maintained? [6 marks]
+
+NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question: 
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+{{{
+=========================================================
+Part C - 54 Marks
+=========================================================
+
+Answer ALL questions in this section
+
+COMP6841 Content - expected time: 54 minutes
+}}}
+
+
+=== Question C1 === [6 marks]
+
+a) A security professional at a conference claims that their website is completely invulnerable to XSS attacks. After querying why, this person claims that they filter all user input and convert the "<" and ">" characters to "." characters. This way no one is able to inject any HTML and therefore cannot exploit any forms of XSS in their website. 
+
+Is this person correct in that they are protected against all XSS attacks?
+
+YES/NO: NOT ANSWERED
+
+
+b) Explain your reasoning for the above. 
+If you answered no, provide an example of an application and/or a payload that would lead to compromise. 
+If you answered yes, explain why filtering would still be needed before storing any user input into the database.
+
+NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question: 
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+=== Question C2 === [6 marks]
+
+You have been contracted by a small non-for-profit to perform a penetration test on their internal environment. They give you a list of assets as follows:
+IP			Use Case
+10.1.1.10		Domain Controller - for having a centralised login system.
+10.1.1.20		CCTV - A computer that the IoT cameras store their recordings onto.
+10.1.1.53		DNS Server - for blocking access to websites, limiting ads, and having human friendly names for machines. 
+10.1.1.80		Web Server - for hosting the organisation鈥檚 website, open to the internet.
+
+As part of your information gathering process, you run nmap against the network with the following command:
+`nmap -sC -sV 10.1.1.1/24`
+However, the nmap scan only returns results for three machines.
+Explain why the scan would only return limited results.
+
+NOT ANSWERED
+
+
+What command could you run to make sure results for all machines were returned?
+
+NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question: 
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+=== Question C3 === [6 marks]
+
+After doing some initial scanning, the same not-for-profit emails you to add two networks to scope: 
+
+Network		Use Case
+10.1.2.0/24	Staff Workstations - IP addresses for staff laptops that connect to the network.
+10.2.2.2/24	IoT - A network for all the IoT equipment for lights and cameras to connect to.
+
+You continue your scanning and have found that there is no network segmentation or isolation at all between any of the networks.
+Explain why this could be concerning from a security perspective. Given reasonings specific to the environment described.
+
+NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question: 
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+=== Question C4 === [6 marks]
+
+Below is a disassembly output of a binary file. What would the output of the binary be if given the input 鈥�5鈥�? (That is the character 5, not the string containing the character 5)
+```
+(gdb) disass main
+Dump of assembler code for function main:
+   0x0000000000001189 <+0>:	endbr64
+   0x000000000000118d <+4>:	push   rbp
+   0x000000000000118e <+5>:	mov    rbp,rsp
+   0x0000000000001191 <+8>:	sub    rsp,0x30
+   0x0000000000001195 <+12>:	mov    DWORD PTR [rbp-0x24],edi
+   0x0000000000001198 <+15>:	mov    QWORD PTR [rbp-0x30],rsi
+   0x000000000000119c <+19>:	mov    rax,QWORD PTR fs:0x28
+   0x00000000000011a5 <+28>:	mov    QWORD PTR [rbp-0x8],rax
+   0x00000000000011a9 <+32>:	xor    eax,eax
+   0x00000000000011ab <+34>:	mov    DWORD PTR [rbp-0x10],0x0
+   0x00000000000011b2 <+41>:	mov    DWORD PTR [rbp-0xc],0x1
+   0x00000000000011b9 <+48>:	lea    rax,[rip+0xe44]        # 0x2004
+   0x00000000000011c0 <+55>:	mov    rdi,rax
+   0x00000000000011c3 <+58>:	mov    eax,0x0
+   0x00000000000011c8 <+63>:	call   0x1080 <printf@plt>
+   0x00000000000011cd <+68>:	lea    rax,[rbp-0x14]
+   0x00000000000011d1 <+72>:	mov    rsi,rax
+   0x00000000000011d4 <+75>:	lea    rax,[rip+0xe41]        # 0x201c
+   0x00000000000011db <+82>:	mov    rdi,rax
+   0x00000000000011de <+85>:	mov    eax,0x0
+   0x00000000000011e3 <+90>:	call   0x1090 <__isoc99_scanf@plt>
+   0x00000000000011e8 <+95>:	jmp    0x11f4 <main+107>
+   0x00000000000011ea <+97>:	mov    eax,DWORD PTR [rbp-0xc]
+   0x00000000000011ed <+100>:	add    DWORD PTR [rbp-0x10],eax
+   0x00000000000011f0 <+103>:	add    DWORD PTR [rbp-0xc],0x1
+   0x00000000000011f4 <+107>:	mov    eax,DWORD PTR [rbp-0x14]
+   0x00000000000011f7 <+110>:	cmp    DWORD PTR [rbp-0xc],eax
+   0x00000000000011fa <+113>:	jle    0x11ea <main+97>
+   0x00000000000011fc <+115>:	mov    eax,DWORD PTR [rbp-0x10]
+   0x00000000000011ff <+118>:	mov    esi,eax
+   0x0000000000001201 <+120>:	lea    rax,[rip+0xe17]        # 0x201f
+   0x0000000000001208 <+127>:	mov    rdi,rax
+   0x000000000000120b <+130>:	mov    eax,0x0
+   0x0000000000001210 <+135>:	call   0x1080 <printf@plt>
+   0x0000000000001215 <+140>:	mov    eax,0x0
+   0x000000000000121a <+145>:	mov    rdx,QWORD PTR [rbp-0x8]
+   0x000000000000121e <+149>:	sub    rdx,QWORD PTR fs:0x28
+   0x0000000000001227 <+158>:	je     0x122e <main+165>
+   0x0000000000001229 <+160>:	call   0x1070 <__stack_chk_fail@plt>
+   0x000000000000122e <+165>:	leave
+   0x000000000000122f <+166>:	ret
+End of assembler dump.
+```
+
+a) Code output:
+
+NOT ANSWERED
+
+
+b) Reasoning: 
+
+NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question: 
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+=== Question C5 === [6 marks]
+
+Below is a code snippet used to host a web application. List three vulnerabilities that might arise from the code as you can, and provide reasoning as to why they are security vulnerabilities.
+
+```
+# Define a function to handle POST requests 
+@app.route("/login", methods=["POST"])
+def login():
+    # Getting data from the POST request
+    data = request.form
+    username = data.get("username")
+    password = data.get("password")
+
+    if username is None or password is None:
+        return abort(400, "missing username or password")
+
+    try:
+        # Establishing a connection to the MySQL database
+        conn = get_connection()
+        cursor = conn.cursor()
+
+        # Execute the query
+        cursor.execute("SELECT * FROM users WHERE username=" \
+                       + username \
+                       + " AND password=" \
+                       + password
+                       + ";")
+
+        # Fetch all the rows returned by the query
+        user_records = list(cursor.fetchall())
+
+        if len(user_records) == 0:
+            return abort(403, "invalid username or password")
+
+        user = user_records[0]
+
+        return jsonify({
+            "user": {
+                "username": user["username"],
+                "role": user["role"]
+                }
+            })
+    except Exception as e:
+        print(e, file=sys.stderr)
+        return jsonify({"error": "An error occurred."}), 500
+    finally:
+        # Closing the cursor and connection
+        cursor.close()
+        conn.close()
+```
+
+Vulnerability 1: NOT ANSWERED
+
+Reasoning 1: NOT ANSWERED
+
+
+Vulnerability 2: NOT ANSWERED
+
+Reasoning 2: NOT ANSWERED
+
+
+Vulnerability 3: NOT ANSWERED
+
+Reasoning 3: NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question: 
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+=== Question C6 === [12 marks]
+
+Hosted at https://final.comp6841.xyz is a web application. Somewhere in the database is the flag that you are looking for. 
+Write the flag below and the steps you went through to get it. If you did not get the flag, write out anything you attempted in solving this challenge.
+
+FLAG:
+
+NOT ANSWERED
+
+
+Walkthrough:
+
+NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question: 
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+=== Question C7 === [12 marks]
+
+Located at final.comp6841.xyz:1337 is a binary file. A flag is written somewhere in the code. Do you think you can find it?
+Write the flag below and the steps you went through to get it. If you did not get the flag, write out anything you attempted in solving this challenge.
+
+FLAG:
+
+NOT ANSWERED
+
+
+Walkthrough:
+
+NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question: 
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE

@@ -1,0 +1,363 @@
+= UNSW COMP64[8]41 Final Theory Exam Parts A+B+C: 2026t2 v4.1 =
+== 120 marks + 2 bonus marks / 3 hours ==
+
+There is a 2 mark bonus if you correctly follow all exam instructions.
+
+Note from past experience is that it is extremely rare for answers that are very long to score as well as those which are shorter, usually overly long answers score worse because they tend to be more confusing or cluttered. Answers which contain an unclear mixture of strong and weak points will not score as well as answers which consist of only strong points or which clearly distinguish between the stronger and weaker points.
+
+COMP6841 - 120 marks
+Part A - answer ALL questions = 48 marks
+Part B - answer ALL questions = 52 marks
+Part C - answer ALL questions = 20 marks
+
+Read Before You Start:
+
+Lines such as [guide: 2-3 sentences] are guides and you are not required to follow them.
+
+If you are doing the exam electronically type in your details and sign the affirmation by typing your name where indicated.
+
+
+
+
+{{{
+=========================================================
+Part A
+=========================================================
+
+There are 5 questions in this part. Answer all of the questions in this part.
+}}}
+
+## Question A1 [2 marks]
+
+In a newly built system by an organisation, they want to determine hotspots where security and legal issues are most likely to be found. To do this, they look to attribute each issue to a team and then determine where the most issues originate from. In this way, effectively prioritising where most issues in the organisation are located. Which principle of security would be most important to consider in this system?
+
+[A] Integrity
+[B] Confidentiality
+[C] Security by obscurity
+[D] Survivorship bias
+[E] Risk assessment analysis
+[F] Case study analysis
+
+A
+
+NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+## Question A2 [2 marks]
+
+Suppose a major financial institution uses fingerprint scanning for users to access their accounts. What principle of cybersecurity would you be most concerned about if there is a way to duplicate fingerprints?
+
+[A] Confidentiality
+[B] Authentication
+[C] Multi-Factor Authentication (MFA)
+[D] Authorisation
+[E] Security by obscurity
+[F] Availability
+
+[Your answer should be one uppercase letter A-F]
+
+NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+## Question A3 [18 marks]
+
+This question involves devising a way to effectively and realistically perform social engineering on a celebrity such as actor, musician, television personality, or sports star (still living). For example you could pick Taylor Swift, Matt Damon or Lalisa Manobal for example. You must not do anything illegal, rude, disrespectful or invasive in the real world in preparing for this question, or inconvenience or annoy or alarm your selected target or anyone who works for or with them or knows them. Most importantly you are not to invade the privacy of their family or personal life in any way. You are restricted to looking at publicly available information and using entirely passive methods.
+
+PS Please write the answer in English even if the social engineering attack might not be in English.
+
+The exam question:
+
+a) What is the name, age, and country of the celebrity you have picked? [2 marks] (guide: 3-10 words)
+
+NOT ANSWERED
+
+
+b) Context: Identify some significant (but not personal or intrusive) things about them which will help you carry out your social engineering [4 marks] (guide: 50-150 words)
+
+NOT ANSWERED
+
+
+c) Clearly explain a simple and safe social engineering strategy an attacker could follow to learn the celebrity's personal mobile phone number. (To be clear - don't actually do this in the real world - you could be arrested, go to gaol, and/or be expelled from uni). Assume the attacker has roughly the same access and resources that you yourself have available to you. [8 marks] (guide: 500 words)
+
+NOT ANSWERED
+
+
+d) Why would this be an effective strategy? [4 marks] (guide: 2-3 sentences)
+
+NOT ANSWERED
+
+
+You'll be assessed on how realistic, specific, simple, effective, non-risky, time consuming (sooner is better than later!) your strategy is, and how likely the attacker is to be able to learn the required information.
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+## Question A4 [16 marks]
+
+A startup has reached out to you, a CISO at a critical infrastructure energy company, on a cutting edge new solution for authentication in a new era with AI. Instead of conventional password methods, they are looking to create an AI authentication system that is able to authenticate users by conversing with them. This is through techniques such as asking questions such as what they were doing last on the device, monitoring their voice, facial recognition, typing patterns, and more. The system will tailor the authentication process to the user and their device, making it more secure and less prone to attacks.
+
+Your company supplies energy to hundreds of thousands of households and businesses across the world and employs over 20,000 employees all across multiple timezones.
+
+a) If a vote was cast, would you support the decision to mandate this technology into all employee mobile phones and laptops? (Yes or No)
+
+NOT ANSWERED
+
+b) Justify your answer and provide any concerns. [7 marks] (guide: 150-250 words)
+
+NOT ANSWERED
+
+c) List and rank the top 3 recommendations you would you provide to the startup company that would make you more convinced to incorporate the technology in some way feasible. Within your response, state why these are the most important and why they are ordered this way. [9 marks]
+
+1.
+Recommendation (guide: 10-20 words): NOT ANSWERED
+Reason (guide: 30-50 words): NOT ANSWERED
+
+2.
+Recommendation (guide: 10-20 words): NOT ANSWERED
+Reason (guide: 30-50 words): NOT ANSWERED
+
+3.
+Recommendation (guide: 10-20 words): NOT ANSWERED
+Reason (guide: 30-50 words): NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+## Question A5 [10 marks]
+
+Security is not only for specialists. Professionals often need to explain risks, practices, and recommendations to people who are not security aware.
+
+After completing the course, in what ways have course components helped you communicate security ideas more effectively to non-security aware audiences?
+
+Course you completed: NOT ANSWERED [COMP6441/COMP6841/LAWS3040/CRIM3040]
+
+For each example, compare what is needed when educating or advising non-security aware stakeholders with how those communication skills were developed in the course. Make direct reference to tutorials, lectures, and assessments. Focus only on communication with non-security aware people. You may write more than 4 examples; we will mark your best 4.
+
+In what ways (guide: 2-3 sentences each)?:
+
+1. NOT ANSWERED
+2. NOT ANSWERED
+3. NOT ANSWERED
+4. NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+{{{
+=========================================================
+Part B
+=========================================================
+
+There are 4 questions in this part. Answer all of the questions in this part.
+}}}
+
+## Question B1 [4 marks]
+
+You are given some values in an RSA calculation:
+p = 2311
+q = 1193
+N = 446023
+e = 6313
+
+What is the value of d? Show all your working.
+
+NOT ANSWERED
+
+Working:
+
+NOT ANSWERED
+
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+## Question B2 [14 marks]
+
+A developer is utilising an API which cost is determined by the number of requests made. The API has a 64 character password to use that is unique. They accidently posted a screenshot of the password showing 39 of the characters (20 from the start and 19 from the end) in the internal company chat with 800 employees.
+
+A co-worker notices the screenshot and reaches out to you on whether this is a concern.
+
+a) Is this a concern?
+
+NOT ANSWERED
+
+b) Why? Provide evidence to support your claim and state all assumptions. [8 marks] (guide: 250-350 words)
+
+NOT ANSWERED
+
+c) Provide an example of a message you would reply back to your co-worker providing your stance. Provide next steps or advice on the situation, if any. [6 marks] (guide: 100-150 words)
+
+NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+## Question B3 [14 marks]
+
+In a database breach we have the following hash leaked:
+
+Here are a few hashes that were leaked:
+Hash: bed4efa1d4fdbd954bd3705d6a2a78270ec9a52ecfbfb010c61862af5c76af1761ffeb1aef6aca1bf5d02b3781aa854fabd2b69c790de74e17ecfec3cb6ac4bf
+Hash: d01bff047d3633e105ba2396b400710fac9bbb1aadb13fe8cd42d157c1a364b3c80038e5b400be0a47e3748d06b47aada068fcad7114acf340e4430ab53847f9
+Hash: 075c285c127c62b5cfcdbfa013a65b247ef349e1750e6542eb4d23ecc2ab6a47e92f83119fcd68891fc6903ab264df0530dd3009ce6eb880569078b25d8cd292
+
+a) What are the passwords of these hashes (for those possible)?
+
+Hash 1: NOT ANSWERED
+Hash 2: NOT ANSWERED
+Hash 3: NOT ANSWERED
+
+State what you tried and what you found (5 marks) [guide: 50-100 words]:
+
+NOT ANSWERED
+
+b) Should the company immediately change the passwords to use a different hash function given the hashes are now exposed? (5 marks) [guide: 100-150 words]
+
+NOT ANSWERED
+
+Why?
+
+NOT ANSWERED
+
+
+c) How many bits of work would it take to bruteforce the hashes on average? (4 marks)
+
+Bits of work: NOT ANSWERED
+
+Working:
+
+NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+## Question B4 [20 marks]
+
+Refer to image "travller.jpg" for this question.
+
+Your friend is a frequent traveller and asks for your advice after hearing that you have taken a security course at the University of New South Wales. They are curious on how much information you are able to deduce from a photo.
+
+They have proposed a variety of questions and are curious onhow much information you are able to figure out using your expertise. They have tried their best to make the photo as obscure to investigate as possible.
+
+From past messages, you know that they are staying around Southern Cross Station in Melbourne.
+
+a) I took the photo on my phone, what phone do I have? [4 marks]
+
+NOT ANSWERED
+
+How did you figure this out:
+
+NOT ANSWERED
+
+
+b) What time was the photo taken? [4 marks]
+
+NOT ANSWERED
+
+How did you figure this out:
+
+NOT ANSWERED
+
+
+c) What are the nearest hotels I am staying at? [2 marks]
+
+NOT ANSWERED
+
+How did you figure this out:
+
+NOT ANSWERED
+
+
+d) What is the address, and if possible what is the Airbnb I am staying at? Do not spend too much time on this question. State your working and reasoning for marks. [4 marks]
+
+NOT ANSWERED
+
+How did you figure this out:
+
+NOT ANSWERED
+
+
+e) To conclude they ask what your recommendations are in posting this image and whether it is fine to do so. What is your response? [6 marks] (guide: 100-150 words)
+
+NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+{{{
+=========================================================
+Part C
+=========================================================
+
+There are 2 questions in this part. Answer all of the questions in this part.
+}}}
+
+## Question C1 [10 marks]
+
+Challenge is located on https://final-hashes.comp6841.xyz/. Can you log in as alice? You need to provide your writeup to get marks. Partial marks will be awarded for incomplete writeups.
+
+a) Flag: (2 marks)
+
+NOT ANSWERED
+
+Steps you took:
+
+NOT ANSWERED
+
+b) What is Alice's password? (8 marks)
+
+hint: check that the password works by logging in as alice.
+
+NOT ANSWERED
+
+Steps you took:
+
+NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+
+
+## Question C2 [10 marks]
+
+Challenge is located on `nc 54.79.139.112 5040`.
+
+Refer to the binary file "unreachable" and C file "unreachable.c" provided. Can you figure out what this code is doing and get the flag?
+
+When you have done so enter the flag below and explain your method. You need to provide your writeup to get marks. Partial marks will be awarded for incomplete writeups.
+
+a) Flag:
+
+NOT ANSWERED
+
+Steps you took:
+
+NOT ANSWERED
+
+Web pages and/or books I used in answering this question:
+<Replace NONE with a list of all consulted URLs and book titles + authors, leave NONE if you consulted none.>
+NONE
+

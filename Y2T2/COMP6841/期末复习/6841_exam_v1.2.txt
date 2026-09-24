@@ -1,0 +1,200 @@
+= COMP6841 Final Exam =
+== 22T1 ==
+
+Time Recommended: 60mins
+
+The total number of marks available in this section is 60. We recommend you spend on average 1 minute per mark.
+
+You are not permitted to modify the structure of this paper; please answer by replacing the designated sections (underlined). Failure to do this may impact the marking of your paper.
+
+All conditions and restrictions given in the combined 6441/6841 theory exam paper also apply here.
+
+DONT answer all exam questions:
+
+- You only need answer one question in Part A
+- All questions in Part B should attempted to the best of your abilty 
+
+{{{
+Part A - 5 mark Questions
+
+This part consists of two 5 mark questions.  Answer ONE question in this part (do NOT answer more or only A1 will be marked)
+
+}}}
+
+
+=== Question A1 ===
+[5 marks]
+Here is a sha256 hash of a course admin's favourite password f52fbd32b2b3b86ff88ef6c490628285f482af15ddcb29541f94bcf526a3f6c7 
+Can you work out what the password is? 
+
+ - If yes, what is the password? How did you figure it out?
+ - If no, why not? [25-100 words]
+
+____________________
+____________________
+____________________
+
+As a system designer how can you defend against an attacker using rainbow tables? [25-100 words]
+
+____________________
+
+As a user how can you defend against an attacker using a rainbow table to crack your password? [25-100 words]
+
+____________________
+
+
+
+=== Question A2 ===
+[5 marks]
+
+We have discovered a piece of malware on a user’s computer. 67 minutes after this malware was executed it connected to 13.55.173.226 on port 443 and a small amount of data was transferred
+1. Why would the malware wait 67 minutes to connect to 13.55.173.226? [50-100 words]
+
+_________________
+
+2. Give three possible reasons the malware would connect to 13.55.173.226 on port 443? [30-100 words each]
+
+1. ____________________
+2. ____________________
+3. ____________________
+
+
+{{{
+Part B
+
+Answer ALL of the following 5 questions 
+
+}}}
+
+=== Question B1 ===
+[5 marks]
+
+Your friend thinks they installed a rootkit on their computer while updating a device driver. 
+Your friend has installed some userland antivirus software to remove the rootkit and secure their system.
+
+In your professional opinion is this likely to be successful? Why/Why not? [max 50 words]
+
+_________________
+
+
+How would you recommend your friend to secure their device and data? Provide 2 recommendations [50 words each]
+
+1. _________________
+Why: _________________
+
+2. _________________
+Why: _________________
+
+
+=== Question B2 ===
+[10 marks]
+
+Using the attached disassembly graph (re.png), what user input will cause the program to print the flag? How did you deduce this?
+Alternatively, describe how you would approach this task and what you would look for, for partial marks (50-150 words):
+
+____________________
+____________________
+____________________
+
+
+=== Question B3 ===
+[10 marks]
+
+The following code is used to check if an administrator has logged in:
+
+```
+char name[15]; // Address: 0x0804c034
+char logged_in = 0; // Address: 0x0804c043
+ 
+static
+void
+authenticate_admin (void)
+{
+	char pass[16];
+	printf("Please enter your username:\n");
+	gets(name);
+ 
+	if (!strncmp(name, "admin", 4)) {
+		if (logged_in == '1') {
+			printf("Welcome back!\n");
+		} else {
+			printf("Please enter your password\n");
+			fgets(pass, sizeof(pass), stdin);
+		}
+	} else {
+		printf("Admins only!\n");
+	}
+}
+
+```
+
+What will be printed if an attacker enters “adminAAAAAAAAAA1” as their input? Why?
+
+____________________
+
+How about if an attacker enters “admin\x00AAAAAAAAA1”? Why? (\x00 represents a single NULL terminator i.e. 0x00)
+
+____________________
+
+What if an attacker enters “admin\nAAAAAAAAA1”? Why?
+
+____________________
+
+
+=== Question B4 ===
+[15 marks]
+
+The attached network capture file "packetcapture.cap" contains the network traffic from at least two devices over a 30 second period. You have been asked to investigate the exfiltration of some secret data (TopSecret.zip) from server with an IP address 100.10.100.11. 
+
+What is the attacker’s IP address? Briefly describe how you found this [50-100 words]
+
+____________________
+
+What transfer protocol was used to extract the secret data? Briefly describe how you found this [50-100 words]
+
+____________________
+
+What are the credentials used to exfiltrate (TopSecret.zip) from 100.10.100.11? Briefly describe how you found this [50-100 words]
+
+____________________
+
+What is the flag? Briefly describe how you found this [50-100 words]
+
+____________________
+
+What operating system is used on host 124.12.124.130? [10 words max]
+
+____________________
+
+How certain are you that the host 124.12.124.130 is using the above operating system? [Delete the unncessary items]
+
+- Extremely certain
+- Very certain
+- Somewhat certain
+- Uncertain
+- Somewhat uncertain
+- Extremely uncertain
+
+Justify why you are this certain [25-75 words]
+
+____________________
+____________________
+____________________
+
+
+
+=== Question B5 ===
+[15 marks]
+
+Located at http://www.comp6841.com is a login page as well as the source code for that page. Your task is to login and access the flag stored in the SQL database.
+
+When you have done so enter the flag below and explain your method. [50-150 words]
+
+
+Flag:
+____________________
+
+Explanation of Process:
+____________________
+____________________
+____________________

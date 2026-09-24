@@ -1,0 +1,297 @@
+{
+  "main": {
+    "id": "5e76200a22626c61",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e6117a4cf15754d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe2ecd41e13f63fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP9417/NOTE/W1.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "W1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6c987cffed19cb7b",
+    "type": "split",
+    "children": [
+      {
+        "id": "037824e681ddfe78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7658d894c04a2a82",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "42fe2fa824b35795",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "本地安全芯片",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "f4b7570d18c83240",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6de893fd0d6af20e",
+    "type": "split",
+    "children": [
+      {
+        "id": "84f7cd9d76b490ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8191e23d42ab01de",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "d4af65bb7458c5fa",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "a22cbfbe4d76cb7e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "1bbaa77f9986613f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "3754a4f4da489daa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "d6faf023b867daee",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false,
+      "obsidian-git:Open Git source control": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "floating": {
+    "id": "6078d3a9c5fad7ba",
+    "type": "floating",
+    "children": [
+      {
+        "id": "5b0a951df8565e98",
+        "type": "window",
+        "children": [
+          {
+            "id": "436d2c63016e3e2d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2b9f6b5006645d02",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Y2T2/COMP6841/期末复习/期末考点信息.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "期末考点信息"
+                }
+              },
+              {
+                "id": "5b839ef506a31c24",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Y2T2/COMP6841/期末复习/参考.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "参考"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2477,
+        "y": 635,
+        "width": 984,
+        "height": 1393,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "fe2ecd41e13f63fb",
+  "lastOpenFiles": [
+    "COMP9417/NOTE/W1.md",
+    "Y2T2/COMP6841/期末复习/期末考点信息.md",
+    "Y2T2/COMP6841/未命名.md",
+    "COMP9417/NOTE",
+    "Y2T2",
+    "COMP9417",
+    "Y2T2/COMP6841/期末复习/2A99055CA9FF6A0C59ADC88A87D4D35A.JPG",
+    "Y2T2/COMP6841/期末复习/fb696bc7ceb6a9c244e92f6a6440eef0.jpg",
+    "Y2T2/COMP6841/期末复习/photo.py",
+    "COMP6841/期末复习/script/photo.py",
+    "Y2T2/COMP6841/期末复习/参考.md",
+    "Y2T2/COMP6841/期末复习/Engneer/w7 Authentication 身份认证.md",
+    "Y2T2/COMP6841/期末复习/Core/w7 Data Security 数据安全.md",
+    "Y2T2/COMP6841/期末复习/Core/w8 Just Culture, Normal Accidents 事故与公正文化.md",
+    "Y2T2/COMP6841/期末复习/Core/w5 Privacy 隐私.md",
+    "Y2T2/COMP6841/期末复习/Core/w1 Welcome to the Course.md",
+    "Y2T2/COMP6841/期末复习/a.txt",
+    "Y2T2/COMP6841/期末复习/__MACOSX/26t2_6841_exam_v3",
+    "Y2T2/COMP6841/期末复习/26t2_6841_exam_v3/final_6841_v4.1.txt",
+    "Y2T2/COMP6841/期末复习/26t2_6841_exam_v3/unreachable",
+    "Y2T2/COMP6841/期末复习/26t2_6841_exam_v3/unreachable.c",
+    "Y2T2/COMP6841/期末复习/26t2_6841_exam_v3/traveller.jpg",
+    "Y2T2/COMP6841/w2/风险管理.md",
+    "Y2T2/COMP6841/期末复习/Core/w2 Risk & Trust.md",
+    "Y2T2/COMP3231/期末复习/复习计划.md",
+    "Y2T2/COMP3231/期末复习/NOTE/Chapter 3 系统调用.md",
+    "Y2T2/COMP3231/期末复习/NOTE/Chapter 4 文件系统.md",
+    "Y2T2/COMP6841/期末复习/sql.md",
+    "Y2T2/COMP3231/期末复习/Sample question/7 内存管理与虚拟内存（Memory Management and Virtual Memory）.md",
+    "Y2T2/COMP9517/期末复习/4.2 形状描述与分类 Shape Description and Classification.md",
+    "Y2T2/COMP9517/期末复习/4 模式识别 Pattern recognition.md",
+    "Y2T2/COMP3231/期末复习/Sample Exam/09 S1.md",
+    "Y2T2/COMP3231/期末复习/A4 Cheetsheet.md",
+    "Y2T2/COMP3231/期末复习/Sample Exam/17 S1 Answer.md",
+    "Y2T2/COMP3231/期末复习/Sample question/8 多处理器（Multiprocessors）.md",
+    "Y2T2/COMP3231/期末复习/Sample question/6 文件系统 File Systems.md",
+    "Y2T2/COMP3231/期末复习/Sample question/5 死锁（Deadlock）.md",
+    "Y2T2/COMP3231/期末复习/Sample question/4 并发（Concurrency）.md",
+    "Y2T2/COMP3231/期末复习/Sample question/2 系统调用和内核进入与退出.md",
+    "Y2T2/COMP6841/期末复习/COMP-THEORY-PACK/XYZ_PASSWORD.png",
+    "Y2T2/COMP6841/期末复习/COMP-THEORY-PACK/PV2.jpg",
+    "Y2T2/COMP6841/期末复习/COMP-THEORY-PACK/PV1.jpg",
+    "Y2T2/COMP6841/期末复习/COMP-THEORY-PACK/HMD_INVESTIGATION_CONCLUSIONS.png",
+    "Y2T2/COMP6841/期末复习/re.png",
+    "附件/Pasted image 20260726115757.png",
+    "附件/Pasted image 20260726113617.png"
+  ]
+}
