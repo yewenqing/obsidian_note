@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "5e6117a4cf15754d",
+        "id": "53fc2d594439bbe9",
         "type": "tabs",
         "children": [
           {
-            "id": "fe2ecd41e13f63fb",
+            "id": "8f5b3ab62b927ed8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP9417/NOTE/W1.md",
-                "mode": "preview",
+                "file": "COMP9417/ASS1/ASS1 sol.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "W1"
+              "title": "ASS1 sol"
+            }
+          },
+          {
+            "id": "8c53cdff3f4aa351",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP9417/ASS1/ASS1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ASS1"
             }
           }
         ]
@@ -188,110 +202,55 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:创建新数据库": false,
-      "obsidian-git:Open Git source control": false,
-      "terminal:Open terminal": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "6078d3a9c5fad7ba",
-    "type": "floating",
-    "children": [
-      {
-        "id": "5b0a951df8565e98",
-        "type": "window",
-        "children": [
-          {
-            "id": "436d2c63016e3e2d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2b9f6b5006645d02",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Y2T2/COMP6841/期末复习/期末考点信息.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "期末考点信息"
-                }
-              },
-              {
-                "id": "5b839ef506a31c24",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Y2T2/COMP6841/期末复习/参考.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "参考"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 2477,
-        "y": 635,
-        "width": 984,
-        "height": 1393,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "fe2ecd41e13f63fb",
+  "active": "8f5b3ab62b927ed8",
   "lastOpenFiles": [
-    "COMP9417/NOTE/W1.md",
+    "COMP9417/ASS1/ASS1.md",
+    "COMP9417/ASS1/ASS1 sol.md",
+    "附件/Pasted image 20261002011214.png",
+    "附件/20261001_183958.jpg",
+    "COMP9417/ASS1/概括.md",
+    "附件/Pasted image 20261001181512.png",
+    "附件/Pasted image 20261001181444.png",
+    "COMP9417/TUT&LAB/W1/TUT1 sol.md",
+    "COMP9417/TUT&LAB/W2/TUT2.md",
+    "COMP9417/TUT&LAB/W2",
+    "附件/Pasted image 20261001011148.png",
+    "附件/Pasted image 20261001011136.png",
+    "附件/Pasted image 20261001011048.png",
+    "COMP9417/TUT&LAB/W1/TUT1.md",
+    "COMP9417/TUT&LAB/W1/LAB1.md",
+    "COMP9444/NOTE/反向传播.md",
+    "handwritten-notes/反向传播.pdf",
+    "附件/Ink/Writing/2026.9.30 - 17.38pm.svg",
+    "附件/Ink/Writing",
+    "附件/Ink",
+    "handwritten-notes",
+    "COMP4920/TUT Exercise.md",
+    "COMP9444/NOTE",
+    "COMP9444/未命名.md",
+    "COMP9444",
+    "COMP4920",
+    "COMP9417/ASS1",
+    "COMP9417/TUT&LAB/W1/最小二乘法.md",
+    "COMP9417/NOTE/W1 Regression.md",
+    "COMP9417/NOTE/W2 Classification.md",
+    "Y2T2/COMP6841/期末复习/参考.md",
     "Y2T2/COMP6841/期末复习/期末考点信息.md",
+    "COMP9417/TUT&LAB/W1/未命名",
+    "COMP9417/TUT&LAB/未命名.md",
+    "笔记提示词.md",
     "Y2T2/COMP6841/未命名.md",
-    "COMP9417/NOTE",
-    "Y2T2",
-    "COMP9417",
     "Y2T2/COMP6841/期末复习/2A99055CA9FF6A0C59ADC88A87D4D35A.JPG",
     "Y2T2/COMP6841/期末复习/fb696bc7ceb6a9c244e92f6a6440eef0.jpg",
-    "Y2T2/COMP6841/期末复习/photo.py",
-    "COMP6841/期末复习/script/photo.py",
-    "Y2T2/COMP6841/期末复习/参考.md",
     "Y2T2/COMP6841/期末复习/Engneer/w7 Authentication 身份认证.md",
     "Y2T2/COMP6841/期末复习/Core/w7 Data Security 数据安全.md",
     "Y2T2/COMP6841/期末复习/Core/w8 Just Culture, Normal Accidents 事故与公正文化.md",
     "Y2T2/COMP6841/期末复习/Core/w5 Privacy 隐私.md",
     "Y2T2/COMP6841/期末复习/Core/w1 Welcome to the Course.md",
-    "Y2T2/COMP6841/期末复习/a.txt",
-    "Y2T2/COMP6841/期末复习/__MACOSX/26t2_6841_exam_v3",
-    "Y2T2/COMP6841/期末复习/26t2_6841_exam_v3/final_6841_v4.1.txt",
-    "Y2T2/COMP6841/期末复习/26t2_6841_exam_v3/unreachable",
-    "Y2T2/COMP6841/期末复习/26t2_6841_exam_v3/unreachable.c",
-    "Y2T2/COMP6841/期末复习/26t2_6841_exam_v3/traveller.jpg",
     "Y2T2/COMP6841/w2/风险管理.md",
-    "Y2T2/COMP6841/期末复习/Core/w2 Risk & Trust.md",
-    "Y2T2/COMP3231/期末复习/复习计划.md",
-    "Y2T2/COMP3231/期末复习/NOTE/Chapter 3 系统调用.md",
-    "Y2T2/COMP3231/期末复习/NOTE/Chapter 4 文件系统.md",
-    "Y2T2/COMP6841/期末复习/sql.md",
-    "Y2T2/COMP3231/期末复习/Sample question/7 内存管理与虚拟内存（Memory Management and Virtual Memory）.md",
-    "Y2T2/COMP9517/期末复习/4.2 形状描述与分类 Shape Description and Classification.md",
-    "Y2T2/COMP9517/期末复习/4 模式识别 Pattern recognition.md",
-    "Y2T2/COMP3231/期末复习/Sample Exam/09 S1.md",
-    "Y2T2/COMP3231/期末复习/A4 Cheetsheet.md",
-    "Y2T2/COMP3231/期末复习/Sample Exam/17 S1 Answer.md",
-    "Y2T2/COMP3231/期末复习/Sample question/8 多处理器（Multiprocessors）.md",
-    "Y2T2/COMP3231/期末复习/Sample question/6 文件系统 File Systems.md",
-    "Y2T2/COMP3231/期末复习/Sample question/5 死锁（Deadlock）.md",
-    "Y2T2/COMP3231/期末复习/Sample question/4 并发（Concurrency）.md",
-    "Y2T2/COMP3231/期末复习/Sample question/2 系统调用和内核进入与退出.md",
-    "Y2T2/COMP6841/期末复习/COMP-THEORY-PACK/XYZ_PASSWORD.png",
-    "Y2T2/COMP6841/期末复习/COMP-THEORY-PACK/PV2.jpg",
-    "Y2T2/COMP6841/期末复习/COMP-THEORY-PACK/PV1.jpg",
-    "Y2T2/COMP6841/期末复习/COMP-THEORY-PACK/HMD_INVESTIGATION_CONCLUSIONS.png",
-    "Y2T2/COMP6841/期末复习/re.png",
-    "附件/Pasted image 20260726115757.png",
-    "附件/Pasted image 20260726113617.png"
+    "Y2T2/COMP6841/期末复习/Core/w2 Risk & Trust.md"
   ]
 }
