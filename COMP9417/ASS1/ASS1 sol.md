@@ -41,7 +41,7 @@ y &=(I + 2p\lambda W^T W)\hat{\beta}\\
 $$
 
 
-![[Pasted image 20261001181444.png]]![[Pasted image 20261001181512.png]]
+![[Pasted image 20261002215742.png]]![[Pasted image 20261002215728.png]]
 
 ---
 ## c
@@ -63,7 +63,7 @@ L(\beta) &= \frac{1}{2p} \vert{}\vert{}y - \beta\vert{}\vert{}_2^2 + \lambda \ve
 L_j(\beta) &= \frac{1}{2}(y_i-\beta _i)^2 +\lambda \vert{}\vert{}W\beta\vert{}\vert{}_2^2
 \end{aligned}
 $$To Prove:
-$$\nabla L_j(\beta) = [0,0,...,-(y_j-\beta_j),...]^T +  2\lambda W^T W\hat{\beta}$$
+$$\nabla L_j(\beta) = [0,0,...,-(y_j-\beta_j),...]^T +  2\lambda W^T W\beta$$
 
 
 Since
@@ -79,6 +79,158 @@ $$
 \end{aligned}
 $$
 
-$$\frac{\partial \lambda \vert{}\vert{}W\beta\vert{}\vert{}_2^2}{\partial \beta} =   2\lambda W^T W\hat{\beta}$$
+$$\frac{\partial \lambda \vert{}\vert{}W\beta\vert{}\vert{}_2^2}{\partial \beta} =   2\lambda W^T W\beta$$
 Therefore:
-$$\nabla L_j(\beta) = [0,0,...,-(y_j-\beta_j),...]^T +  2\lambda W^T W\hat{\beta}$$
+$$\nabla L_j(\beta) = [0,0,...,-(y_j-\beta_j),...]^T +  2\lambda W^T W\beta$$
+
+
+---
+## e
+![[Pasted image 20261002232817.png]]
+![[Pasted image 20261002224612.png]]
+
+---
+## f
+
+![[Pasted image 20261002230711.png]]
+![[Pasted image 20261002230543.png]]
+
+
+---
+## g
+### (i)
+
+Given:
+$$L^{(-j)}(\beta) = \frac{1}{2p} \sum_{i \neq j} (y_i - \beta_i)^2 + \lambda \vert{}\vert{}W\beta\vert{}\vert{}_2^2$$
+
+
+$$\tilde{L}(\beta) = \frac{1}{2p} \vert{}\vert{}\tilde{y} - \beta\vert{}\vert{}_2^2 + \lambda \vert{}\vert{}W\beta\vert{}\vert{}_2^2$$
+
+To Prove:
+    $$\tilde{L}(\beta) = L^{(-j)}(\beta) + \frac{1}{2p} (u_j - \beta_j)^2$$
+
+
+
+$$
+\begin{aligned}
+\tilde{L}(\beta) &= \frac{1}{2p} \vert{}\vert{}\tilde{y} - \beta\vert{}\vert{}_2^2 + \lambda \vert{}\vert{}W\beta\vert{}\vert{}_2^2\\
+&= \frac{1}{2p} \sum^p_{i=1}(y_i-\beta_i)^2- \frac{1}{2p}(y_j-\beta_j)+ \frac{1}{2p}(u_j - \beta_j)^2++ \lambda \vert{}\vert{}W\beta\vert{}\vert{}_2^2\\
+&= L^{-j}(\beta) + \frac{1}{2p}(u_j-\beta_j)^2
+\end{aligned}
+$$
+
+Since
+ $$ u =\hat{\beta}^{(-j)} = argmin(L^{(-j)}(\beta)) $$
+ Therefore For all $\beta$ :
+ $$L^{(-j)}(\beta) \geq L^{(-j)}(u)$$
+And For all $\beta$ :
+$$(u_j - \beta_j)^2 \geq 0 = (u_j - u_j)^2$$
+
+Thus $u$ is $\tilde{L}(\beta)$ 's minimum value point
+### (ii)
+
+$$
+\begin{aligned}
+\tilde{L}(\beta) &=  L^{-j}(\beta) + \frac{1}{2p}(u_j-\beta_j)^2\\
+\nabla \tilde{L}(\beta) &=  \nabla  L^{-j}(\beta) +  \frac{1}{2p}\nabla(u_j-\beta_j)^2 \\
+&=\frac{1}{p}((\beta - y) - (\beta_j-y_j)e_j) + 2\lambda W^TW\beta + \frac{1}{p}(\beta_j- u_j)e_j\\
+&= \frac{1}{p}((\beta - y) - ( \beta _j -y_j)e_j + (\beta_j- u_j)e_j) + 2\lambda W^TW\beta \\
+&= \frac{1}{p}((\beta -\beta_je_j + \beta_je_j) - (y - y_je_j+u_je_j)) + 2\lambda W^TW\beta \\
+&= \frac{1}{p}(\beta- \tilde{y}) + 2\lambda W^TW\beta \\
+0 &=  \frac{1}{p}(u- \tilde{y}) + 2\lambda W^TWu\\
+0 &= u- \tilde{y} + 2p\lambda W^TWu\\
+\tilde{y} &=  u+ 2p\lambda W^TWu\\
+\tilde{y} &=  (I + 2p\lambda W^TW)u\\
+u &= (I + 2p\lambda W^TW)^{-1} \tilde{y}\\
+u &= S \tilde{y}
+\end{aligned}
+$$
+
+
+### (iii)
+
+To Prove:
+$$ y_j-u_j = \frac{y_j  - \beta_j}{1-S_{jj}} $$
+Since
+
+$$
+\begin{aligned}
+u &= S\tilde{y}\\
+u_j & =e_j^TS\tilde{y}\\
+\\
+\hat{\beta} &= Sy\\
+\beta_j & =e_j^TS{y}\\
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+
+u_j - \beta_j & =e_j^TS\tilde{y} - e_j^TS{y}\\
+&= e_j^TS(\tilde{y} - y)\\
+&= e_j^TSe_j(u_j - y_j)\\
+u_j - \beta_j &= S_{jj}(u_j - y_j)\\
+y_j + u_j - \beta_j &= y_j + S_{jj}u_j - S_{jj}y_j\\
+y_j  - \beta_j &= y_j- u_j + S_{jj}u_j - S_{jj}y_j\\
+&= (1-S_{jj})(y_j-u_j)\\
+\frac{y_j  - \beta_j}{1-S_{jj}} &= y_j-u_j
+\end{aligned}
+$$
+
+
+$$
+CV(\lambda) = \frac{1}{p} \sum_{j=1}^{p} (y_j - \hat{\beta}_j^{(-j)})^2 = \frac{1}{p} \sum_{j=1}^{p} (y_j - u_j)^2 = \frac{1}{p} \sum_{j=1}^{p} \left( \frac{y_j - \hat{\beta}_j}{1 - S_{jj}} \right)^2
+$$
+
+### (iv)
+For each $\lambda$, the matrix $S=(I+2\lambda pW^TW)^{-1}$ and the $\hat\beta=Sy$ only need to be computed once. Hence, we not need to compute $\hat{\beta}^{-j}$ for $j$ in $1$ to $p$.
+
+
+
+---
+## h
+![[Pasted image 20261003083736.png]]
+
+
+
+| index | direct              | shortcut            | abs difference         |
+| ----- | ------------------- | ------------------- | ---------------------- |
+| 0     | 6.766953130133532   | 6.766953130133521   | 1.1546319456101628e-14 |
+| 75    | -0.5147178641526244 | -0.5147178641526224 | 1.9984014443252818e-15 |
+| 149   | -6.280030686138764  | -6.28003068613876   | 3.552713678800501e-15  |
+
+
+Largest difference: 1.1546319456101628e-14
+Selected lambda: 0.001
+Selected CV: 2.624132717945774
+CV at lambda=0.9: 5.967694398878391
+
+![[Pasted image 20261003085706.png]]![[Pasted image 20261003085734.png]]
+
+
+---
+## i
+$$
+\begin{aligned}
+y_i &= \beta^*_j+\epsilon_j\\
+(y_i -\hat{\beta}^{(-j)}_j)^2 &= (\beta^*_j -\hat{\beta}^{(-j)}_j +\epsilon_j)^2\\
+&= (\beta^*_j -\hat{\beta}^{(-j)}_j)^2 + 2(\beta^*_j -\hat{\beta}^{(-j)}_j)\epsilon_j + \epsilon_j^2 \\
+\mathbb{E}[(y_i -\hat{\beta}^{(-j)}_j)^2]&= \mathbb{E}[(\beta^*_j -\hat{\beta}^{(-j)}_j)^2] + 2\mathbb{E}[(\beta^*_j -\hat{\beta}^{(-j)}_j)\epsilon_j] + \mathbb{E}[\epsilon_j^2]\\
+&= \mathbb{E}[(\beta^*_j -\hat{\beta}^{(-j)}_j)^2] + \sigma^ 2\\
+\\
+\mathbb{E}[CV(\lambda)] &= \frac{1}{p} \sum_{j=1}^{p}\mathbb{E}[(y_j - \hat{\beta}_j^{(-j)})^2]\\
+&=  \frac{1}{p} \sum_{j=1}^{p} \mathbb{E}[(\beta^*_j -\hat{\beta}^{(-j)}_j)^2] + \sigma^ 2\\
+&= \sigma^2 + \frac{1}{p} \sum_{j=1}^{p} \mathbb{E}[(\hat{\beta}_j^{(-j)} - \beta_j^*)^2]
+\end{aligned}
+$$
+![[Pasted image 20261003095657.png]]
+
+![[Pasted image 20261003095723.png]]
+
+| Rule               | Average reconstruction error |
+| ------------------ | ---------------------------: |
+| CV-selected        |                     0.005070 |
+| Fixed lambda=0.001 |                     0.032614 |
+| Oracle             |                     0.004511 |
+Conclusion:
+The Oracle achieves the lowest average reconstruction error; the results from the CV-selected method are very close to those of the Oracle and significantly lower than those obtained with a fixed $\lambda=0.001$; using the CV-selected method is the optimal solution when $\beta^*$is unknown.
