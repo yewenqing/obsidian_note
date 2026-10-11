@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP9417/ASS1/ASS1.md",
+                "file": "COMP9417/ASS2/ASS2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ASS1"
+              "title": "ASS2"
             }
           },
           {
-            "id": "8c53cdff3f4aa351",
+            "id": "73422049795ea60d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LeetCode/double_pointer/三数之和.md",
+                "file": "COMP9417/ASS2/ASS2 ans.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "三数之和"
+              "title": "ASS2 ans"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "本地安全芯片",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -206,16 +206,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8c53cdff3f4aa351",
+  "active": "73422049795ea60d",
   "lastOpenFiles": [
-    "LeetCode/double_pointer/盛水容器.md",
+    "COMP9417/ASS2/ASS2.md",
+    "COMP9417/ASS2/ASS2 ans.md",
+    "学习计划.md",
+    "COMP9444/ASS1/ASS1.md",
+    "COMP9417/ASS2",
+    "TODO.md",
+    "COMP9444/ASS1/a1.md",
+    "附件/in_out5.png",
+    "附件/in_out3.png",
+    "附件/in_out2.png",
+    "附件/in_out1.png",
+    "附件/in_out0.png",
+    "附件/in_out9.png",
+    "附件/in_out8.png",
+    "附件/in_out7.png",
+    "附件/in_out6.png",
+    "附件/in_out4.png",
+    "COMP9417/TUT&LAB/W3/TUT3.md",
+    "COMP9417/TUT&LAB/W1/TUT1.md",
+    "COMP9417/TUT&LAB/W3",
+    "COMP9417/TUT&LAB/W2/TUT2.md",
+    "COMP9444/LEC/W5.md",
+    "COMP9444/NOTE/生成式模型.md",
+    "COMP9444/LEC/W4.md",
+    "COMP9417/ASS1/ASS1.md",
+    "LeetCode/double_pointer/接雨水.md",
+    "COMP9444/LEC",
     "LeetCode/double_pointer/三数之和.md",
+    "test git.md",
+    "LeetCode/double_pointer/盛水容器.md",
     "LeetCode/double_pointer/移动零.md",
     "LeetCode/hash/两数之和.md",
     "LeetCode/double_pointer",
     "LeetCode/hash/字母异位词分组.md",
     "LeetCode/hash/最长连续序列.md",
-    "COMP9444/ASS1/ASS1.md",
     "LeetCode/hash",
     "LeetCode",
     "COMP4920/READING/W3 src.md",
@@ -223,36 +250,9 @@
     "COMP4920/NOTE/W3 功利主义与义务论 德性伦理.md",
     "COMP4920/NOTE/W1 计算机伦理.md",
     "笔记提示词.md",
-    "COMP4920/NOTE/W2 算法偏见、公平与正义.md",
-    "COMP4920/READING/W2.md",
     "COMP4920/READING",
-    "COMP4920/TUT Exercise.md",
     "COMP4920/NOTE",
-    "COMP9444/NOTE/反向传播.md",
     "COMP9444/ASS1",
-    "COMP9417/ASS1/ASS1 sol.md",
-    "COMP9417/ASS1/ASS1.md",
-    "附件/Pasted image 20261003095723.png",
-    "附件/Pasted image 20261003095657.png",
-    "附件/Pasted image 20261003085734.png",
-    "附件/Pasted image 20261003085706.png",
-    "附件/Pasted image 20261003083736.png",
-    "附件/Pasted image 20261002232817.png",
-    "附件/Pasted image 20261002230711.png",
-    "附件/Pasted image 20261002230543.png",
-    "附件/Pasted image 20261002224612.png",
-    "附件/Pasted image 20261002215742.png",
-    "COMP9417/ASS1/概括.md",
-    "COMP9417/TUT&LAB/W1/TUT1 sol.md",
-    "COMP9417/TUT&LAB/W2/TUT2.md",
-    "COMP9417/TUT&LAB/W2",
-    "COMP9417/TUT&LAB/W1/TUT1.md",
-    "COMP9417/TUT&LAB/W1/LAB1.md",
-    "handwritten-notes/反向传播.pdf",
-    "附件/Ink/Writing",
-    "附件/Ink",
-    "COMP9444/未命名.md",
-    "COMP9417/TUT&LAB/W1/最小二乘法.md",
-    "COMP9417/NOTE/W1 Regression.md"
+    "COMP9417/TUT&LAB/W2"
   ]
 }
