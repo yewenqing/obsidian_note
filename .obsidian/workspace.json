@@ -35,7 +35,8 @@
               "title": "ASS2 ans"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -205,10 +206,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8f5b3ab62b927ed8",
+  "active": "73422049795ea60d",
   "lastOpenFiles": [
-    "COMP9444/LEC/W4.md",
     "COMP9417/ASS2/ASS2 update.md",
+    "COMP9417/ASS2/ASS2 ans.md",
+    "COMP9444/ASS1/ASS1.md",
+    "COMP9444/LEC/W4.md",
     "COMP9444/LEC/W5.md",
     "COMP9444/Project/路线.md",
     "COMP9444/Project/013.md",
@@ -216,10 +219,8 @@
     "COMP9444/Project/评分细则.md",
     "COMP9417/ASS2/ASS2.md",
     "COMP9444/Project",
-    "COMP9417/ASS2/ASS2 ans.md",
     "COMP9444/ASS1/a1.md",
     "学习计划.md",
-    "COMP9444/ASS1/ASS1.md",
     "COMP9417/ASS2",
     "TODO.md",
     "附件/in_out5.png",
