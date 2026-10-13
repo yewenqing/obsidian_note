@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP9417/ASS2/ASS2.md",
+                "file": "COMP9417/ASS2/ASS2 update.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ASS2"
+              "title": "ASS2 update"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "ASS2 ans"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,15 +205,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "73422049795ea60d",
+  "active": "8f5b3ab62b927ed8",
   "lastOpenFiles": [
+    "COMP9444/LEC/W4.md",
+    "COMP9417/ASS2/ASS2 update.md",
+    "COMP9444/LEC/W5.md",
+    "COMP9444/Project/路线.md",
+    "COMP9444/Project/013.md",
+    "COMP9444/Project/List.md",
+    "COMP9444/Project/评分细则.md",
     "COMP9417/ASS2/ASS2.md",
+    "COMP9444/Project",
     "COMP9417/ASS2/ASS2 ans.md",
+    "COMP9444/ASS1/a1.md",
     "学习计划.md",
     "COMP9444/ASS1/ASS1.md",
     "COMP9417/ASS2",
     "TODO.md",
-    "COMP9444/ASS1/a1.md",
     "附件/in_out5.png",
     "附件/in_out3.png",
     "附件/in_out2.png",
@@ -229,9 +236,7 @@
     "COMP9417/TUT&LAB/W1/TUT1.md",
     "COMP9417/TUT&LAB/W3",
     "COMP9417/TUT&LAB/W2/TUT2.md",
-    "COMP9444/LEC/W5.md",
     "COMP9444/NOTE/生成式模型.md",
-    "COMP9444/LEC/W4.md",
     "COMP9417/ASS1/ASS1.md",
     "LeetCode/double_pointer/接雨水.md",
     "COMP9444/LEC",
@@ -245,14 +250,8 @@
     "LeetCode/hash/最长连续序列.md",
     "LeetCode/hash",
     "LeetCode",
-    "COMP4920/READING/W3 src.md",
-    "COMP4920/READING/W3.md",
-    "COMP4920/NOTE/W3 功利主义与义务论 德性伦理.md",
-    "COMP4920/NOTE/W1 计算机伦理.md",
-    "笔记提示词.md",
     "COMP4920/READING",
     "COMP4920/NOTE",
-    "COMP9444/ASS1",
-    "COMP9417/TUT&LAB/W2"
+    "COMP9444/ASS1"
   ]
 }
