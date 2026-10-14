@@ -1,0 +1,278 @@
+diff --git a/.obsidian/workspace.json b/.obsidian/workspace.json
+index 000000..000000 100644
+--- a/.obsidian/workspace.json
++++ b/.obsidian/workspace.json
+@@ -1,0 +1,272 @@
++{
++  "main": {
++    "id": "5e76200a22626c61",
++    "type": "split",
++    "children": [
++      {
++        "id": "53fc2d594439bbe9",
++        "type": "tabs",
++        "children": [
++          {
++            "id": "8f5b3ab62b927ed8",
++            "type": "leaf",
++            "state": {
++              "type": "markdown",
++              "state": {
++                "file": "COMP9417/ASS2/ASS2 update.md",
++                "mode": "source",
++                "source": false
++              },
++              "icon": "lucide-file",
++              "title": "ASS2 update"
++            }
++          },
++          {
++            "id": "73422049795ea60d",
++            "type": "leaf",
++            "state": {
++              "type": "markdown",
++              "state": {
++                "file": "学习计划.md",
++                "mode": "source",
++                "source": false
++              },
++              "icon": "lucide-file",
++              "title": "学习计划"
++            }
++          },
++          {
++            "id": "bc77f24958301607",
++            "type": "leaf",
++            "state": {
++              "type": "split-diff-view",
++              "state": {
++                "aFile": "conflict-files-obsidian-git.md",
++                "bFile": "conflict-files-obsidian-git.md",
++                "aRef": ""
++              },
++              "icon": "diff",
++              "title": "Diff: conflict-files-obsidian-git  (Working Tree)"
++            }
++          }
++        ],
++        "currentTab": 2
++      }
++    ],
++    "direction": "vertical"
++  },
++  "left": {
++    "id": "6c987cffed19cb7b",
++    "type": "split",
++    "children": [
++      {
++        "id": "037824e681ddfe78",
++        "type": "tabs",
++        "children": [
++          {
++            "id": "7658d894c04a2a82",
++            "type": "leaf",
++            "state": {
++              "type": "file-explorer",
++              "state": {
++                "sortOrder": "alphabetical",
++                "autoReveal": false
++              },
++              "icon": "lucide-folder-closed",
++              "title": "文件列表"
++            }
++          },
++          {
++            "id": "42fe2fa824b35795",
++            "type": "leaf",
++            "state": {
++              "type": "search",
++              "state": {
++                "query": "",
++                "matchingCase": false,
++                "explainSearch": false,
++                "collapseAll": false,
++                "extraContext": false,
++                "sortOrder": "alphabetical"
++              },
++              "icon": "lucide-search",
++              "title": "搜索"
++            }
++          },
++          {
++            "id": "f4b7570d18c83240",
++            "type": "leaf",
++            "state": {
++              "type": "bookmarks",
++              "state": {},
++              "icon": "lucide-bookmark",
++              "title": "书签"
++            }
++          }
++        ]
++      }
++    ],
++    "direction": "horizontal",
++    "width": 300
++  },
++  "right": {
++    "id": "6de893fd0d6af20e",
++    "type": "split",
++    "children": [
++      {
++        "id": "84f7cd9d76b490ff",
++        "type": "tabs",
++        "children": [
++          {
++            "id": "8191e23d42ab01de",
++            "type": "leaf",
++            "state": {
++              "type": "backlink",
++              "state": {
++                "collapseAll": false,
++                "extraContext": false,
++                "sortOrder": "alphabetical",
++                "showSearch": false,
++                "searchQuery": "",
++                "backlinkCollapsed": false,
++                "unlinkedCollapsed": true
++              },
++              "icon": "links-coming-in",
++              "title": "反向链接"
++            }
++          },
++          {
++            "id": "d4af65bb7458c5fa",
++            "type": "leaf",
++            "state": {
++              "type": "outgoing-link",
++              "state": {
++                "linksCollapsed": false,
++                "unlinkedCollapsed": true
++              },
++              "icon": "links-going-out",
++              "title": "出链"
++            }
++          },
++          {
++            "id": "a22cbfbe4d76cb7e",
++            "type": "leaf",
++            "state": {
++              "type": "tag",
++              "state": {
++                "sortOrder": "frequency",
++                "useHierarchy": true,
++                "showSearch": false,
++                "searchQuery": ""
++              },
++              "icon": "lucide-tags",
++              "title": "标签"
++            }
++          },
++          {
++            "id": "1bbaa77f9986613f",
++            "type": "leaf",
++            "state": {
++              "type": "all-properties",
++              "state": {
++                "sortOrder": "frequency",
++                "showSearch": false,
++                "searchQuery": ""
++              },
++              "icon": "lucide-archive",
++              "title": "添加笔记属性"
++            }
++          },
++          {
++            "id": "3754a4f4da489daa",
++            "type": "leaf",
++            "state": {
++              "type": "outline",
++              "state": {
++                "followCursor": false,
++                "showSearch": false,
++                "searchQuery": ""
++              },
++              "icon": "lucide-list",
++              "title": "大纲"
++            }
++          },
++          {
++            "id": "d6faf023b867daee",
++            "type": "leaf",
++            "state": {
++              "type": "git-view",
++              "state": {},
++              "icon": "git-pull-request",
++              "title": "Source Control"
++            }
++          }
++        ],
++        "currentTab": 5
++      }
++    ],
++    "direction": "horizontal",
++    "width": 300
++  },
++  "left-ribbon": {
++    "hiddenItems": {
++      "switcher:打开快速切换": false,
++      "graph:查看关系图谱": false,
++      "canvas:新建白板": false,
++      "daily-notes:打开/创建今天的日记": false,
++      "templates:插入模板": false,
++      "command-palette:打开命令面板": false,
++      "bases:创建新数据库": false,
++      "obsidian-git:Open Git source control": false
++    }
++  },
++  "active": "bc77f24958301607",
++  "lastOpenFiles": [
++    "conflict-files-obsidian-git.md",
++    "学习计划.md",
++    "COMP9417/NOTE/W4 Tree Learning.md",
++    "COMP4920/NOTE/W4 元伦理学.md",
++    "COMP9417/ASS2/ASS2 ans.md",
++    "COMP9417/ASS2/ASS2 update.md",
++    "COMP9444/ASS1/ASS1.md",
++    "COMP9444/LEC/W4.md",
++    "COMP9444/LEC/W5.md",
++    "COMP9444/Project/路线.md",
++    "COMP9444/Project/013.md",
++    "COMP9444/Project/List.md",
++    "COMP9444/Project/评分细则.md",
++    "COMP9417/ASS2/ASS2.md",
++    "COMP9444/Project",
++    "COMP9444/ASS1/a1.md",
++    "COMP9417/ASS2",
++    "TODO.md",
++    "附件/in_out5.png",
++    "附件/in_out3.png",
++    "附件/in_out2.png",
++    "附件/in_out1.png",
++    "附件/in_out0.png",
++    "附件/in_out9.png",
++    "附件/in_out8.png",
++    "附件/in_out7.png",
++    "附件/in_out6.png",
++    "附件/in_out4.png",
++    "COMP9417/TUT&LAB/W3/TUT3.md",
++    "COMP9417/TUT&LAB/W1/TUT1.md",
++    "COMP9417/TUT&LAB/W3",
++    "COMP9417/TUT&LAB/W2/TUT2.md",
++    "COMP9444/NOTE/生成式模型.md",
++    "COMP9417/ASS1/ASS1.md",
++    "LeetCode/double_pointer/接雨水.md",
++    "COMP9444/LEC",
++    "LeetCode/double_pointer/三数之和.md",
++    "test git.md",
++    "LeetCode/double_pointer/盛水容器.md",
++    "LeetCode/double_pointer/移动零.md",
++    "LeetCode/double_pointer",
++    "LeetCode/hash",
++    "LeetCode",
++    "COMP4920/READING",
++    "COMP4920/NOTE",
++    "COMP9444/ASS1"
++  ]
++}
+\ No newline at end of file
